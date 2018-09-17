@@ -1,0 +1,1 @@
+web: cd backend/src && gunicorn confs.wsgi
