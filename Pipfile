@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+django-debug-toolbar = "*"
+pytest-django = "*"
+pytest-cov = "*"
+
+[packages]
+Django = {version = ">=2.0.3,<3.0"}
+unipath = "*"
+django-dotenv = "*"
+django-getenv = "*"
+dj-database-url = "*"
+django-webpack-loader = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+"boto3" = "*"
+requests = "*"
+django-storages = "*"
+pillow = "*"
+gunicorn = "*"
+django-heroku = "*"
+whitenoise = "*"
+easy-thumbnails = "*"
+psycopg2-binary = "*"
