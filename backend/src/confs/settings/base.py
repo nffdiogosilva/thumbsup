@@ -36,9 +36,16 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # 3rd Party apps
+     # 3rd Party apps
     'webpack_loader',
     'storages',
+    'rest_framework',
+    'knox',
+    'easy_thumbnails',
+
+    # Project apps
+    'apiauth',
+    'thumbnailer',
 )
 
 MIDDLEWARE = [
