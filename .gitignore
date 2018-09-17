@@ -13,6 +13,7 @@ frontend/build
 # backend
 backend/public/media
 backend/public/static
+backend/.env
 
 # pytest and coverage
 backend/.pytest_cache/*
