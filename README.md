@@ -8,7 +8,7 @@ I haven't had yet time to learn best practices so somethings might be off.
 
 ### Clone project
 ```shell
-git clone uri
+git clone git@github.com:nffdiogosilva/thumbsup.git
 cd thumbsup
 ```
 
