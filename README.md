@@ -14,7 +14,7 @@ cd thumbsup
 
 ### Setup backend:
 ```shell
-pipenv shell
+pipenv install
 cd backend/src
 ./manage.py migrate
 ./manage.py runserver
