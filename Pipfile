@@ -12,7 +12,7 @@ pytest-django = "*"
 pytest-cov = "*"
 
 [packages]
-Django = {version = ">=2.0.3,<3.0"}
+Django = {version = ">=2.1.2,<3.0"}
 unipath = "*"
 django-dotenv = "*"
 django-getenv = "*"
@@ -21,7 +21,7 @@ django-webpack-loader = "*"
 djangorestframework = "*"
 django-rest-knox = "*"
 "boto3" = "*"
-requests = "*"
+requests = {version = ">=2.20.0,<3.0"}
 django-storages = "*"
 pillow = "*"
 gunicorn = "*"
