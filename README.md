@@ -4,6 +4,14 @@ This project was a way of learning [ReactJS](https://reactjs.org/) ("learning by
 
 I haven't had yet time to learn best practices so somethings might be off.
 
+You can see the project deployed here: https://shielded-fjord-19022.herokuapp.com/
+
+Credentials:
+```
+email: demo@demo.com
+password: demo
+```
+
 ## Getting Started
 
 ### Clone project
