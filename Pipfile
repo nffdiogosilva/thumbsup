@@ -12,7 +12,7 @@ pytest-django = "*"
 pytest-cov = "*"
 
 [packages]
-Django = {version = ">=2.1.2,<3.0"}
+Django = {version = ">=2.1.6,<3.0"}
 unipath = "*"
 django-dotenv = "*"
 django-getenv = "*"
