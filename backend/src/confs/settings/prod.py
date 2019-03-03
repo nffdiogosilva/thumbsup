@@ -6,7 +6,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 # Allow all host headers
-ALLOWED_HOSTS = [env('ALLOWED_HOSTS', '*')]
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['example.com'])
 
 
 INSTALLED_APPS += (
